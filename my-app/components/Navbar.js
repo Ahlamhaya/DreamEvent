@@ -51,12 +51,12 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className="hidden md:flex italic font-meduim" >
+                <div className="hidden md:flex italic font-bold" >
                     <NavLink to="/clientHome">
                       Services
                     </NavLink>
                     
-                    <NavLink to="/about">
+                    <NavLink to="/About">
                         ABOUT
                     </NavLink>
                     
@@ -67,11 +67,12 @@ export default function Navbar() {
             </div>
             <div className=' ml-40 hidden md:flex italic font-meduim'>
             <NavLink to="addAgency">
-                        Become an Agency
+            <button class="px-6 py-2 text-sm transition-colors duration-300 border-2 rounded-full shadow-xl text-rose-500 border-rose-400 shadow-rose-300/30 hover:bg-rose-500 hover:text-rose-100">Add Your Agency</button>
+
                     </NavLink>
                    
-                    <a href="loginAgency">
-                 <FaUserCircle size={28}  /> 
+                    <a href="Login">
+                 <FaUserCircle size={34}  /> 
                  </a>
             </div>
         </nav>

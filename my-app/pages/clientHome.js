@@ -8,7 +8,7 @@ import { FcIdea } from "react-icons/fc";
 import { FcBusinesswoman } from "react-icons/fc";
 import { FcBusinessman } from "react-icons/fc";
 import { FcGallery } from "react-icons/fc";
-import Foooter from '../components/Foooter'
+import Footer from '../components/Footer'
 
 function clientHome() {
   return (
@@ -168,7 +168,7 @@ function clientHome() {
       </div>
 
     <div className='mt-20'>
-      <Foooter />
+      <Footer />
       </div>
 
 

@@ -8,7 +8,7 @@ import Reviews from '../components/Reviews'
 import card1 from '../assets/card1.jpg'
 import card2 from '../assets/card2.jpg'
 import card3 from '../assets/card3.jpg'
-import Foooter from '../components/Foooter'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 
@@ -35,8 +35,9 @@ function addAgency() {
 
 
         <div className=' lg:bg-black lg:text-white lg:h-screen'>
-          <h1 className='lg:mt-40 lg:text-6xl lg:font-normal lg:mx-20 text-3xl font-medium mt-6 ml-4 mr-6   '> Your business, is a pillar of our common space</h1>
-       <a href="userProfile" > <button class=" lg:mx-40 mt-6 ml-2 bg-[#D70466]  text-white font-bold py-2 px-28    rounded">
+          <h1 className='lg:mt-40 lg:text-6xl lg:font-normal lg:mx-20 text-3xl font-medium mt-6 ml-4 mr-6   '> Your business, is
+          <br/> a pillar of our common space</h1>
+       <a href="userForm" > <button class=" lg:mx-40 mt-6 ml-2 bg-[#D70466]  text-white font-bold py-2 px-28    rounded">
             Add my business
           </button></a> 
 
@@ -111,7 +112,7 @@ function addAgency() {
 
 
       <div className='mt-20'>
-      <Foooter />
+      <Footer />
       </div>
     </div>
 

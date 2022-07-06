@@ -2,10 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Navbar from '../components/Navbar'
-import Body from '../components/Body'
-import PreLoader from '../components/PreLoader'
-import Foooter from '../components/Foooter'
+import Wave from '../components/Wave'
+
 
 
 
@@ -27,12 +25,12 @@ export default function Home() {
           
       </Head>
       {/* <PreLoader/> */}
-      <Navbar/>
-       <Body/>
-       <div className='mt-20'>
+      
+       <Wave/>
+       {/* <div className='mt-20'>
       <Foooter />
     
-      </div>
+      </div> */}
    {/* <Practice/>   */}
     </div>
   )

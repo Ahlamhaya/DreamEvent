@@ -1,4 +1,13 @@
+
+
+
+
+
+
+
+
 module.exports = {
+
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -15,6 +24,11 @@ module.exports = {
       borderRadius: {
         extraLarge: '12rem'
       },
+      colors: {
+        primarycolor: "#F9A826"
+      },
+
+      
       animation: {
         blob: "blob 12s infinite",
       },

@@ -39,7 +39,7 @@ export default function GridGallery({ images }) {
   function GridGalleryCard({ imageUrl, show }) {
     return (
       <div
-        className={`  lg:h-96
+        className={`  lg:h-full
         relative transition ease-in duration-300 transform ${
           show ? "" : "translate-y-16 opacity-0"
         }`}

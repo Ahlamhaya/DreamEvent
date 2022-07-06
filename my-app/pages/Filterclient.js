@@ -2,6 +2,7 @@ import React from 'react'
 import DatePicker from "react-datepicker";
 import Navbar from '../components/Navbar'
 import "react-datepicker/dist/react-datepicker.css";
+import Footer from '../components/Footer' 
 
 
 function Filterclient() {
@@ -10,6 +11,36 @@ function Filterclient() {
   return (
     <div>
       <Navbar />
+
+
+      <div>
+        <h1 className='font-semibold text-center lg:text-5xl text-3xl mb-6 text-[#273041] mt-10 '>
+          Tailor-made Matching
+          <br />
+          To Find Your Agency 
+        </h1>
+       <p className='text-center text-[#273041]'>Zeo is a digital marketing agency with a team of 50+ consultants. Using modern technology to make data-driven
+       <br/> decisions is our competitive advantage. The world's most valuable brands, unicorn startups, and 
+       <br/> internet companies prefer to work with us to fulfill their digital potential.</p> 
+       <img className='mt-6' src='https://zeo.org/static/d64ae097bf89d91a4a8277df2a659798/1609311090-homepage-hero.svg'></img>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div className=' flex items-center justify-center mt-20'>
         <form class="w-full max-w-lg ">
           <div class="flex flex-wrap -mx-3 mb-6">
@@ -20,7 +51,7 @@ function Filterclient() {
 
               <div class="relative">
                 <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>Enter type here</option>
+                  <option value="" disabled selected hidden>Select event type</option>
                   <option>Wedding</option>
                   <option>Baby-Shower</option>
                   <option>Birthday</option>
@@ -40,7 +71,7 @@ function Filterclient() {
               </label>
               <div class="relative">
                 <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>Choose a city</option>
+                  <option value="" disabled selected hidden>Choose a city</option>
                   <option>Casablanca</option>
                   <option>Rabat</option>
                   <option>Fes</option>
@@ -60,7 +91,7 @@ function Filterclient() {
               </label>
               <div class="relative">
                 <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>Choose a number</option>
+                  <option value="" disabled selected hidden>Pick a number</option>
                   <option>less than 5 People</option>
                   <option>5-10 People</option>
                   <option>10-30 People</option>
@@ -83,9 +114,7 @@ function Filterclient() {
                     min="2022-01-01" max="2040-12-31"></input>
 
                 </div>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                  <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
-                </div>
+
               </div>
             </div>
           </div>
@@ -110,11 +139,11 @@ function Filterclient() {
             </div>
             <div class="w-full md:w-1/2 px-3  md:mb-0">
               <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
-                Buffet requirement
+                require customization?
               </label>
               <div class="relative">
                 <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-
+                  <option value="" disabled selected hidden>Service Personalization</option>
                   <option>Yes</option>
                   <option>No</option>
 
@@ -138,9 +167,12 @@ function Filterclient() {
         </form>
       </div>
       <div className='text-center'>
-        <button class=" mt-4 bg-[#FFCE51] text-white font-bold py-2 px-20 lg:py-4 border  rounded">
-          Start here
+        <button class="bg-[#cc0a4d]  text-white font-bold py-2 px-4 rounded-full mt-6">
+          Find Your Match
         </button>
+      </div>
+      <div className='mt-4'>
+      <Footer  />
       </div>
     </div>
   )
