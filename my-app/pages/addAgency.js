@@ -7,7 +7,7 @@ import styles from "./Image.module.css";
 import Reviews from '../components/Reviews'
 import card1 from '../assets/card1.jpg'
 import card2 from '../assets/card2.jpg'
-import card3 from '../assets/card3.jpg'
+import catering2 from '../assets/catering2.jpg'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -78,7 +78,7 @@ function addAgency() {
           {/* third card */}
           <div className='mt-10 '>
           <div className='text-center'>
-            <Image src={card3} alt="" width={300} height={320} className='rounded'></Image>
+            <Image src={catering2} alt="" width={300} height={320} className='rounded'></Image>
            </div> 
             <div className='h-44 b'>
               <h3 className="font-bold text-2xl p-4 text-[#484848] text-center">   Details and attention </h3>
@@ -96,7 +96,7 @@ function addAgency() {
           <Image className={styles.image} layout="fill" objectFit='cover' src={host} alt='team advisory'></Image>
 
           <h1 className={styles.header}>Questions about terms and steps of adding your business? discuss with a team member</h1>
-          <div className='text-[12px] font-bold'><button className={styles.btn}>Contact us</button></div>
+          {/* <div className='text-[12px] font-bold'><button className={styles.btn}>Contact us</button></div> */}
         </div>
       </div>
 

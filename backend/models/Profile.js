@@ -15,9 +15,7 @@ let ProfileSchema = new Schema({
     Password: {
         type: String
     },
-    Confirm_Password: {
-        type: String
-    },
+   
     Agency_Name: {
         type: String
     },
@@ -27,7 +25,7 @@ let ProfileSchema = new Schema({
     Location: {
         type: String
     },
-    Events_organised: {
+   Events_organised: {
         type: String
     },
     Capacity_of_guests: {
@@ -42,7 +40,10 @@ let ProfileSchema = new Schema({
     working_hours: {
         type: String
     },
-    Short_description_about_your_agency: {
+    Short_description: {
+        type: String
+    },
+    image_url: {
         type: String
     },
 });

@@ -8,7 +8,7 @@ function Gallery() {
         "celeb1.jpg",
         "bride.jpg",
         "frdz.jpg",
-        "kidbd.jpg",
+        "bdzz.jpg",
         "tablee.jpg",
         "bridesmaid.jpg",
         "wedding.jpg",
@@ -28,6 +28,8 @@ function Gallery() {
     <div>
 
 <Navbar/>
+
+      <h2 className='text-lg  mt-10 lg:text-center mx-6'> A Sneak Peak On Recent Events Made With DreamEvent ...</h2>
 <GridGallery images={images    } />
 
 

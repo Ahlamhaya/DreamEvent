@@ -66,7 +66,7 @@ let stock=""
   group-hover:h-[100px] transition-all duration-300">
           <img
             src={profile[0].image_url}
-            class="w-full h-full object-cover opacity-40 group-hover:opacity-60 transition duration-300"
+            class="w-full h-full object-cover  transition duration-300"
           />
           {/* <img 
       src="./beach.jpg" 

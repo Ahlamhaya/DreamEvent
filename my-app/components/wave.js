@@ -22,9 +22,9 @@ function wave() {
                 <p class="leading-normal text-2xl mb-8">
                   Connecting People With upcomig Events With Suitable Planners (for a perfect Match!)
                 </p>
-                <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Start your search now
-                </button>
+                <a href="/clientHome" > <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                 Go to Client Space
+                </button></a>
               </div>
 
               <div class="w-full md:w-3/5 py-12 ">
@@ -59,29 +59,34 @@ function wave() {
             <div className=' lg:grid lg:grid-cols-[1fr,2fr]'>
 
               <img className='h-auto  w-96 lg:ml-12' src="https://digitaltoucan.com/wp-content/uploads/2021/07/graphic-pillar-jse-magic-chapter-1.svg"></img>
-              <p className='text-black text-gray-800 pl-2 lg:mt-20 lg:text-xl lg:mx-20'> Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+              <p className='text-black text-gray-800 pl-2 lg:mt-20 lg:text-xl lg:mx-20'> A digital space for Businesses
+                Who handle and organise a variety of events (Weddings, proms, conferences, Business meetings, 
+               Catering... )
+               
+              So your business can gain more visibility and traction. By creating
+              A profile, Telling future clients about you and story of your business.</p>
             </div>
             {/* second gif*/}
             <div className=' lg:grid lg:grid-cols-[2fr,1fr] mt-12'>
 
               <img className='h-auto  w-96  lg:order:last' src="https://digitaltoucan.com/wp-content/uploads/2021/07/graphic-pillar-jse-magic-chapter-3.svg"></img>
-              <p className='lg:order-first lg:mx-20  lg:mt-20  text-black text-gray-800 pl-2  lg:text-xl '> Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+              <p className='lg:order-first lg:mx-20  lg:mt-20  text-black text-gray-800 pl-2  lg:text-xl '> Wondering Who will make that 
+              perfect dream pic nic at te beach real for you? Frustrated about the few choices you got in hand whenever you are 
+
+             searching for an event agency? Noted down. Dream Event gives you access to all event makers in the country
+
+                so you can choose freely and rapidly</p>
             </div>
 
             {/* third gif */}
             <div className=' lg:grid lg:grid-cols-[1fr,2fr] mt-12'>
 
               <img className='h-auto  w-96 lg:ml-12' src="https://digitaltoucan.com/wp-content/uploads/2021/07/graphic-pillar-jse-magic-chapter-2.svg"></img>
-              <p className='text-black text-gray-800 pl-2 lg:mt-20 lg:text-xl lg:mx-20'> Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+              <p className='text-black text-gray-800 pl-2 lg:mt-20 lg:text-xl lg:mx-20'> Get real costumers reviews
+                About available businesses and see with our narrow-down sreach if your criterias match 
+              with your desired   
+              Agency , all this is an easy to access mobile-friendly space. We believe that Morocco's businesses
+              have lots to offer, if only given the right space to do so. </p>             
             </div>
 
 
@@ -93,7 +98,7 @@ function wave() {
           <section class="bg-white  py-8 ">
             <div class="">
               <h1 class=" italic w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 ">
-                Title
+                Products
               </h1>
               <div className='lg:grid lg:grid-cols-3 mt-6 '>
                 <div className='lg:mr-40 '>
@@ -138,8 +143,7 @@ function wave() {
                 For you?
               </h3>
               <p className='text-gray-800 lg:w-96 lg:mt-4 mt-10'>
-                It is extremely important not only to reach the target audience but also to keep this audience. Achieving this success with engaging content and the right distribution strategies is the main focus of content marketing.
-              </p>
+The Events Market is big, we are trying to move forward into a revolutionized version of it by making a digital space for all type of event makers so YOU can stroll down a city of choices without worrying again if you are missing on something.              </p>
 
 
             </div>
@@ -216,9 +220,9 @@ function wave() {
             <h3 class="my-4 text-3xl leading-tight">
               Create your profile for more visibility
             </h3>
-            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <a href="/addAgency"><button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               Sign in
-            </button>
+            </button></a>
           </section>
 
           <footer class="bg-white">

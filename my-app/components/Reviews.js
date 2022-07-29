@@ -32,6 +32,11 @@ function Reviews() {
                     <span className=' italic font-bold s'>Nadia</span>
                     <h3 className='italic font-light'> catering morocco</h3>
                 </div>
+                <div className='text-center'>
+                <p className='font-semibold'>"When i integrated DreamEvent, we noticed more visibility and interaction from our target clients"</p>  
+                    <span className=' italic font-bold s'>Nadia</span>
+                    <h3 className='italic font-light'> catering morocco</h3>
+                </div>
 
             </Slider>
         </div>

@@ -17,6 +17,8 @@ export default function GridGallery({ images }) {
     };
   
     return (
+   
+
       <div className="mx-20 mt-10 grid grid-cols-2 ">
         {images &&
           images.map((imageUrl, index) => (
@@ -38,8 +40,10 @@ export default function GridGallery({ images }) {
   
   function GridGalleryCard({ imageUrl, show }) {
     return (
+      
+
       <div
-        className={`  lg:h-full
+        className={`  
         relative transition ease-in duration-300 transform ${
           show ? "" : "translate-y-16 opacity-0"
         }`}
@@ -50,8 +54,9 @@ export default function GridGallery({ images }) {
             Event Type
           </div>
         </div>
-        <img src={imageUrl} alt="" />
+        <img className='lg:h-96 h-40 w-96 lg:w-[600px]' src={imageUrl} alt="" />
       </div>
+   
     );
   }
   
